@@ -1,0 +1,40 @@
+# Introduction to Devops and CICD
+
+## What is DevOps? 
+
+DevOps is a combination of software development (dev) and operations (ops). \
+It is defined as a software engineering methodology which aims to integrate the work of development teams and operations teams by facilitating a culture of collaboration and shared responsibility.
+
+### Key principles for DevOps -
+1. Automation of the software development lifecycle. 
+    - This includes automating testing, builds, releases, the provisioning of development environments, and other manual tasks that can slow down or introduce human error into the software delivery process.
+
+2. Collaboration and communication.
+    - A good DevOps team has automation, but a great DevOps team also has effective collaboration and communication.
+
+3. Continuous improvement and minimization of waste.
+    - From automating repetitive tasks to watching performance metrics for ways to reduce release times or mean-time-to-recovery, high performing DevOps teams are regularly looking for areas that could be improved.
+
+4. Hyperfocus on user needs with short feedback loops.
+    - Through automation, improved communication and collaboration, and continuous improvement, DevOps teams can take a moment and focus on what real users really want, and how to give it to them.
+
+By adopting these principles, organizations can improve code quality, achieve a faster time to market, and engage in better application planning.
+
+
+### DevOps Stages -
+
+- Following image explains the different stages of the DevOps cycle -
+
+![DevOps cycle](/assets/Devops-toolchain.svg)
+
+
+## What is CI/CD?
+
+- CI/CD stands for continuous integration and continuous delivery. 
+- CI/CD automates much or all of the manual human intervention traditionally needed to get new code from a commit into production, encompassing the build, test (including integration tests, unit tests, and regression tests), and deploy phases, as well as infrastructure provisioning. 
+- CI/CD is an essential part of DevOps and any modern software development practice. A purpose-built CI/CD platform can maximize development time by improving an organization's productivity, increasing efficiency, and streamlining workflows through built-in automation, testing, and collaboration.
+- As applications grow larger, the features of CI/CD can help decrease development complexity. Adopting other DevOps practices — like shifting left on security and creating tighter feedback loops — helps organizations break down development silos, scale safely, and get the most out of CI/CD.
+
+- CI/CD Process 
+
+![cicd-process](/assets/cicd-workflow.png)
